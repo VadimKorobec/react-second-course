@@ -1,3 +1,10 @@
+import { Todo } from "./components/Todo/Todo";
+
 export const App = () => {
-  return <h1>Hello React!</h1>;
+  return (
+    <div>
+      <h1>My Todos</h1>
+      <Todo />
+    </div>
+  );
 };
