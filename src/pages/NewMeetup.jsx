@@ -1,3 +1,10 @@
+import { NewMeetupForm } from "../components/Meetups/NewMeetupForm";
+
 export const NewMeetupPage = () => {
-  return <div>New Meetup Page</div>;
+  return (
+    <section>
+      <h1 style={{ textAlign: "center" }}>Add New Meetup</h1>
+      <NewMeetupForm />
+    </section>
+  );
 };
